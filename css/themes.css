@@ -1,0 +1,47 @@
+.light-theme {
+  --bg-surface: #ffffff;
+  --bg-surface-low: #f3f3f3;
+  --bg-surface-hover: rgba(0, 0, 0, 5%);
+  --bg-surface-active: rgba(0, 0, 0, 8%);
+  --bg-surface-border: rgba(0, 0, 0, 10%);
+
+  --bg-primary: rgb(56, 95, 221);
+  --bg-primary-hover: rgba(56, 95, 221, 80%);
+  --bg-primary-active: rgba(56, 95, 221, 70%);
+  --bg-primary-border: rgba(56, 95, 221, 38%);
+
+  --tc-surface-high: #000;
+  --tc-surface-normal: rgba(0, 0, 0, 68%);
+  --tc-surface-low: rgba(0, 0, 0, 38%);
+  
+  --tc-primary-high: rgb(255, 255, 255);
+  --tc-primary-normal: rgba(255, 255, 255, 80%);
+  --tc-primary-low: rgba(255, 255, 255, 50%);
+
+  --ic-surface-normal: #626262;
+  --ic-primary-normal: #ffffff;
+}
+
+.dark-theme {
+  --bg-surface: #2C2F33;
+  --bg-surface-low: #23272A;
+  --bg-surface-hover: rgba(255, 255, 255, 5%);
+  --bg-surface-active: rgba(255, 255, 255, 8%);
+  --bg-surface-border: rgba(0, 0, 0,30%);
+
+  --bg-primary: rgb(56, 95, 221);
+  --bg-primary-hover: rgba(56, 95, 221, 80%);
+  --bg-primary-active: rgba(56, 95, 221, 70%);
+  --bg-primary-border: rgba(56, 95, 221, 38%);
+
+  --tc-surface-high: rgb(255, 255, 255);
+  --tc-surface-normal: rgba(255, 255, 255, 0.80);
+  --tc-surface-low: rgba(255, 255, 255, 0.50);
+  
+  --tc-primary-high: rgb(255, 255, 255);
+  --tc-primary-normal: rgba(255, 255, 255, 0.8);
+  --tc-primary-low: rgba(255, 248, 248, 0.5);
+
+  --ic-surface-normal: #c5c5c5;
+  --ic-primary-normal: #ffffff;
+}

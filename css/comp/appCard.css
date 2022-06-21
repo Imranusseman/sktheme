@@ -1,0 +1,54 @@
+/* -- app card -- */
+
+.appCard {
+  width: calc(var(--app-icon-size) + 4 * var(--sp-tight));
+  padding: var(--sp-tight);
+  border-radius: var(--bo-normal);
+
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.appCard__appname {
+  min-width: 0;
+  width: 100%;
+
+  margin-top: var(--sp-tight);
+  color: var(--tc-surface-normal);
+  text-align: center;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.appCard:hover,
+.appCard:focus {
+  outline: none;
+  background-color: var(--bg-surface-hover);
+}
+.appCard:active {
+  background-color: var(--bg-surface-active);
+}
+
+.appCard__info {
+  display: flex;
+  width: 100%;
+  margin-top: var(--sp-ultra-tight);
+}
+.appCard__info > div {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+
+  color: var(--tc-surface-low);
+}
+.appCard__info > div > i {
+  margin: 0 var(--sp-ultra-tight);
+}
+.appCard__info >div > .text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

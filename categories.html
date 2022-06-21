@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class="light-theme">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/index.css">
+
+  <link rel="icon" href="./assets/favicon.png">
+
+  <script defer src="./js/main.js"></script>
+
+  <title>Sketchub</title>
+</head>
+<body id="appBody">
+  <div id="root">
+     <!-- App Header -->
+    <header class="sk-header fx--start--center">
+  <div class="sk-header__branding">
+    <!-- <h2 class="text text-h2">Sketchub</h2> -->
+    <a href="/" class="text text-h2">Sketchub</a>
+  </div>
+  <div class="sk-header__search-container fx--center">
+    <input class="sk-header__search-bar text-b1" placeholder="Search..." type="text">
+  </div>
+  <div class="sk-header__options">
+    <button onClick="sHubApp.changeTheme()" class="sk-icon-button">
+      <i class="bi bi-brightness-alt-high"></i>
+    </button>
+    <button class="sk-icon-button">
+      <i class="bi bi-person"></i>
+    </button>
+  </div>
+</header>    <!-- / App Header -->
+
+    <!-- Content -->
+    <div class="sk-content__wrapper">
+      <div id="skContent" class="sk-content">
+
+        <div id="headerWrapper">
+          <div class="content__header fx--start--center">
+            <h1 class="text text-h2">Categories</h1>
+          </div>
+        </div>
+        
+        <p class="text text-b1" style="text-align:center;">Coming soon...</p>
+
+                
+        
+      </div>
+    </div>
+    <!-- / Content -->
+
+    <!-- Navigation bar -->
+      
+    <nav class="sk-nav">
+      <div class="sk-nav__content">
+        <a href="/" id="btnHome" class="sk-nav__btn ">
+          <i class="bi bi-house-door"></i>
+          <span class="text text-b2">Home</span>
+        </a>
+        <a href="/all" id="btnAllApps" class="sk-nav__btn ">
+          <i class="bi bi-grid"></i>
+          <span class="text text-b2">All apps</span>
+        </a>
+        <a href="/news" id="btnNews" class="sk-nav__btn ">
+          <i class="bi bi-newspaper"></i>
+          <span class="text text-b2">News</span>
+        </a>
+        <a href="/categories" id="btnCatagories" class="sk-nav__btn sk-nav__btn--active">
+          <i class="bi bi-collection"></i>
+          <span class="text text-b2">Categories</span>
+        </a>
+      </div>
+    </nav>
+      <!-- / Navigation bar -->
+  </div>
+</body>
+</html>

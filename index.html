@@ -1,0 +1,1275 @@
+
+<!DOCTYPE html>
+<html lang="en" class="light-theme">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/index.css">
+
+  <link rel="icon" href="./assets/favicon.png">
+
+  <script defer src="./js/main.js"></script>
+
+  <title>Sketchub</title>
+
+  <meta name="name"        content="Sketchub">
+  <meta name="description" content="Sketchub is a platform for sharing your programming creations with the world-wide community.">
+  <meta name="keywords"    content="Sketchub, Web, Sketchware, Project, Store">
+  <meta name="theme-color" content="#212D3B">
+
+  <meta property="og:title"       content="Sketchub">
+  <meta property="og:url"         content="https://web.sketchub.in">
+  <meta property="og:image"       content="https://web.sketchub.in/assets/sketchub_logo.jpg">
+  <meta property="og:description" content="Sketchub is a platform for sharing your programming creations with the world-wide community.">
+</head>
+<body id="appBody">
+  <div id="root">
+    <!-- App Header -->
+    <header class="sk-header fx--start--center">
+  <div class="sk-header__branding">
+    <!-- <h2 class="text text-h2">Sketchub</h2> -->
+    <a href="/" class="text text-h2">Sketchub</a>
+  </div>
+  <div class="sk-header__search-container fx--center">
+    <input class="sk-header__search-bar text-b1" placeholder="Search..." type="text">
+  </div>
+  <div class="sk-header__options">
+    <button onClick="sHubApp.changeTheme()" class="sk-icon-button">
+      <i class="bi bi-brightness-alt-high"></i>
+    </button>
+    <button class="sk-icon-button">
+      <i class="bi bi-person"></i>
+    </button>
+  </div>
+</header>    <!-- / App Header -->
+
+    <!-- Content -->
+    <div class="sk-content__wrapper">
+      <div id="skContent" class="sk-content">
+        <div id="headerWrapper">
+          <div class="content__header fx--start--center">
+            <h1 class="text text-h2">Home</h1>
+          </div>
+        </div>
+
+        <div id="appsContainer" class="sk-apps">
+
+          <!-- New and updated -->
+          <div class="content__subheader">
+            <p class="text text-s1">New &#38; Updated</p>
+            <div class="content__subheader__options">
+              <button class="btn-primary btn-small text text-b2" onclick = "location.href='/all?scope=recent';">See More</button>
+            </div>
+          </div>
+          <div class="h-appscroll-container scrollbar scrollbar__h scrollbar--auto-hide">
+            
+      <a class="appCard" href="/p/14799">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14799/6930401.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Meow Navigation bar + ViewPager2</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">3&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">0</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14798">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14798/7044204.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Sketchub More UI</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">2&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">0</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14796">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14796/8931163.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">device password</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">3&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">0</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14795">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14795/3100531.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">svg to image view</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">3&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">2</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14794">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14794/8047750.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">MICO Wallpapers Admin v1.0</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">4&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">2</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14793">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14793/2337068.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">MICO Wallpapers v1.0</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">8&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">2</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14790">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14790/6506760.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">One Button More Works</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">5&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">2</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14789">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14789/5481390.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Sketchware Block Manger</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">7&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">2</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14788">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14788/5122868.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">New Tasbah</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">2&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">1</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14787">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14787/7964893.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Star Retail Shop</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">3&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">0</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14786">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14786/8319245.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Admin app maintenance</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">4&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">2</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14785">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14785/3175691.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">User maintenance app</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">3&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">1</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14784">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14784/7513380.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Full Application</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">8&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">1</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14781">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14781/6757126.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Login Sketchub</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">6&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">3</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14780">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14780/3616318.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">yoba app</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">3&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">2</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14778">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14778/4825026.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Gaming Logo Maker</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">5&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">3</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14774">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14774/7655439.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Contacts+</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">9&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">11</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14773">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14773/2613268.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Login/Registration Ui By Md Gesan</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">10&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">4</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14772">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14772/3243234.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">AssetsImages To RecyclerView</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">0&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">6</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14770">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14770/9206210.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Trans-Activity</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">8&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">17</p>
+          </div>
+          </div>
+      </a>
+              </div>
+
+          <!-- Editor choice -->
+          <div class="content__subheader">
+            <p class="text text-s1">Editor's choice</p>
+            <div class="content__subheader__options">
+              <button class="btn-primary btn-small text text-b2" onclick = "location.href='/all?scope=editor_choice';">See More</button>
+            </div>
+          </div>
+          <div class="h-appscroll-container scrollbar scrollbar__h scrollbar--auto-hide">
+          
+      <a class="appCard" href="/p/8878">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/8878/4542004.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Tiles™ - Tutorial Project</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">101&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">29</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/12375">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/12375/5589868.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Spark AI - Virtual Assistant</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">103&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">39</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/12927">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/12927/7411331.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Daily Reward</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">97&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">56</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/1562">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/1562/2675919.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Paint CD</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">135&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">40</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/6820">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/6820/3615253.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Tank Destroyers' Forest Attack! [15/4/2022]</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">183&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">111</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/6364">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/6364/9797337.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Video publishing project</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">132&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">62</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/2291">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/2291/1782217.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Animated Analog Clock</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">90&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">33</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/3296">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/3296/3239134.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Audio Visualiser Example</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">174&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">23</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/2787">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/2787/7006008.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Custom Every Thing</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">278&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">37</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/8476">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/8476/2383776.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Bom Blast</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">203&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">134</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/5778">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/5778/8740829.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Screen Recorder - Full Features</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">114&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">112</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/2627">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/2627/3226143.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Chess 3.0</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">157&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">53</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/6546">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/6546/7612727.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Weather Pro</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">37&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">12</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/1565">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/1565/2804480.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Swipe To Delete in listview</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">122&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">27</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/6978">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/6978/8028848.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Relativelayout + Overlay ( Open Project )</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">112&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">42</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/6863">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/6863/7513019.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Facebook Login SDK Implementation</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">183&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">138</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/1580">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/1580/6560633.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Slidable Activity</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">180&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">35</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/133">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/133/5424919.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">MultiChoice in ListView - Example</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">70&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">20</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/4870">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/4870/2226736.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Plant it! V2.8</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">61&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">132</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/338">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/338/4434802.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">InfiniTabs - Example</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">146&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">66</p>
+          </div>
+          </div>
+      </a>
+              </div>
+
+          <!-- Trending -->
+          <div class="content__subheader">
+            <p class="text text-s1">Trending</p>
+            <div class="content__subheader__options">
+              <button class="btn-primary btn-small text text-b2" onclick = "location.href='/all?scope=trending';">See More</button>
+            </div>
+          </div>
+          <div class="h-appscroll-container scrollbar scrollbar__h scrollbar--auto-hide">
+          
+      <a class="appCard" href="/p/14673">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14673/9061819.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Automatic image slider (xbanner library)</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">21&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">18</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14751">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14751/1597362.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Android Studio for smartphones Java, Kotlin, C++</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">21&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">8</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/11788">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/11788/7741602.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Uptime Club - v0.2.7 Beta</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">214&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">107</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14709">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14709/1086539.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Play Pro ( YouTube Like Project )</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">15&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">9</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14687">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14687/5403470.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">UI BANK</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">8&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">0</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14714">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14714/7276744.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Calculator</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">12&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">0</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14724">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14724/9955027.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">PlaystoreInAppUpdate System</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">17&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">0</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14672">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14672/4967973.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Reward Ads</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">7&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">3</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14662">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14662/8543290.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">PlaystoreRateSystem in app</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">18&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">10</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14715">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14715/4377200.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">power</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">13&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">15</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14768">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14768/9231665.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Android Bootstrap</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">18&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">18</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14759">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14759/3179924.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Multiple Images upload</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">8&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">5</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14678">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14678/8788030.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Apktool (APK Decoder) 2.3.0 Java Support</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">14&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">17</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14165">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14165/9630441.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Icon Creator</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">39&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">11</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14628">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14628/5881081.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">HAX VPN</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">9&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">8</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14702">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14702/4406770.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">BKILE VPN</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">2&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">0</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14793">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14793/2337068.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">MICO Wallpapers v1.0</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">8&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">2</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14719">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14719/6619468.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Extraction WebSite</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">11&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">2</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14601">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14601/9271474.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Messenger Fox</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">18&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">24</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/14733">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14733/1365962.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Network
+Speed Test</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">12&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">4</p>
+          </div>
+          </div>
+      </a>
+              </div>
+
+          <!-- Most Liked -->
+          <div class="content__subheader">
+            <p class="text text-s1">Most Liked</p>
+            <div class="content__subheader__options">
+              <button class="btn-primary btn-small text text-b2" onclick = "location.href='/all?scope=most_liked';" >See More</button>
+            </div>
+          </div>
+          <div class="h-appscroll-container scrollbar scrollbar__h scrollbar--auto-hide">
+          
+      <a class="appCard" href="/p/3171">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/3171/3694990.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">WhatsChat</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">368&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">59</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/53">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/53/9659716.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Music Player</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">312&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">46</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/685">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/685/8157951.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Design UI Kit - Dialog &amp; Sheets</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">294&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">36</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/2787">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/2787/7006008.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Custom Every Thing</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">278&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">37</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/1665">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/1665/2947722.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Screen Recorder - By_rues with Original Sketchware</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">238&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">114</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/7166">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/7166/9146829.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">VPN Free Project</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">224&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">28</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/11788">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/11788/7741602.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Uptime Club - v0.2.7 Beta</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">214&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">107</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/9141">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/9141/7761045.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Earning App</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">213&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">161</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/10366">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/10366/5140767.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Dream Music by DreamPLAY Dev</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">211&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">236</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/8476">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/8476/2383776.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Bom Blast</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">203&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">134</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/6029">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/6029/6815659.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Sketch Project Store</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">201&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">137</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/6820">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/6820/3615253.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Tank Destroyers' Forest Attack! [15/4/2022]</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">183&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">111</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/6863">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/6863/7513019.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Facebook Login SDK Implementation</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">183&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">138</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/1580">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/1580/6560633.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Slidable Activity</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">180&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">35</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/3296">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/3296/3239134.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Audio Visualiser Example</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">174&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">23</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/2679">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/2679/8622223.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Login Ui</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">170&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">12</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/3058">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/3058/7186567.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">SKY_CHAT_  Fix1</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">165&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">102</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/56">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/56/8221995.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">TabLayout Material</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">157&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">17</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/2627">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/2627/3226143.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">Chess 3.0</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">157&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">53</p>
+          </div>
+          </div>
+      </a>
+    
+      <a class="appCard" href="/p/338">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/338/4434802.png" alt="sketchub icon">
+          <p class="appCard__appname text text-b1">InfiniTabs - Example</p>
+          <div class="appCard__info">
+          <div>
+              <i class="bi bi-heart text text-b3"></i>
+              <p class="text text-b3">146&nbsp;</p>
+          
+              <i class="bi bi-chat-left text text-b3"></i>
+              <p class="text text-b3">66</p>
+          </div>
+          </div>
+      </a>
+              </div>
+          <!--sections end here-->
+
+        </div>
+      </div>
+    </div>
+    <!-- / Content -->
+
+    <!-- footer -->
+    <p class="text text-b1" style="text-align:center;">&copy;2022 Sketchub | <a href="https://sketchub.in/user_policy">User Policy</a></p>
+
+    <!-- Navigation bar -->
+      
+    <nav class="sk-nav">
+      <div class="sk-nav__content">
+        <a href="/sk/index.html" id="btnHome" class="sk-nav__btn sk-nav__btn--active">
+          <i class="bi bi-house-door"></i>
+          <span class="text text-b2">Home</span>
+        </a>
+        <a href="/sk/all.html" id="btnAllApps" class="sk-nav__btn ">
+          <i class="bi bi-grid"></i>
+          <span class="text text-b2">All apps</span>
+        </a>
+        <a href="/sk/news.html" id="btnNews" class="sk-nav__btn ">
+          <i class="bi bi-newspaper"></i>
+          <span class="text text-b2">News</span>
+        </a>
+        <a href="/sk/categories.html" id="btnCatagories" class="sk-nav__btn ">
+          <i class="bi bi-collection"></i>
+          <span class="text text-b2">Categories</span>
+        </a>
+      </div>
+    </nav>
+      <!-- / Navigation bar -->
+      
+      
+      
+  </div>
+</body>
+</html>
+
+<!--
+<button class="appCard">
+  <img class="appIcon" src="https://sketchub.in/images/brandings/sketchub_logo.png" alt="sketchub icon">
+  <p class="appCard__appname text text-b1">Sketchub</p>
+  <div class="appCard__info">
+    <div>
+      <i class="bi bi-heart text text-b3"></i>
+      <p class="text text-b3">34</p>
+    </div>
+    <div>
+      <i class="bi bi-chat-left text text-b3"></i>
+      <p class="text text-b3">34</p>
+    </div>
+  </div>
+</button>
+-->

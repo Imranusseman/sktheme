@@ -1,0 +1,19 @@
+.news-card {
+  padding: var(--sp-tight);
+  margin-bottom: var(--sp-normal);
+  border: 1px solid var(--bg-surface-border);
+  border-radius: var(--bo-small);
+}
+
+.news-card__heading,
+.news-card__img {
+  margin-bottom: var(--sp-tight);
+}
+.news-card__heading {
+  color: var(--tc-surface-normal);
+}
+.news-card__img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: var(--bo-small);
+}

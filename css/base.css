@@ -1,0 +1,102 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+*::placeholder {
+  color: var(--tc-surface-low);
+}
+a {
+  color: var(--bg-primary);
+  text-decoration: none;
+}
+i {
+  font-size: 24px;
+  color: var(--ic-surface-normal);
+}
+label {
+  margin: 0;
+  padding: 0;
+}
+button {
+  max-width: 100%;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  text-transform: none;
+  text-align: inherit;
+  overflow: visible;
+  -webkit-appearance: button;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.text {
+  color: var(--tc-surface-normal);
+}
+.text-h1 {
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h1);
+  letter-spacing: var(--ls-h1);
+}
+.text-h2 {
+  font-size: var(--fs-h2);
+  line-height: var(--lh-h2);
+  letter-spacing: var(--ls-h2);
+}
+.text-s1 {
+  font-size: var(--fs-s1);
+  line-height: var(--lh-s1);
+  letter-spacing: var(--ls-s1);
+}
+.text-b1 {
+  font-size: var(--fs-b1);
+  line-height: var(--lh-b1);
+  letter-spacing: var(--ls-b1);
+}
+.text-b2 {
+  font-size: var(--fs-b2);
+  line-height: var(--lh-b2);
+  letter-spacing: var(--ls-b2);
+}
+.text-b3 {
+  font-size: var(--fs-b3);
+  line-height: var(--lh-b3);
+  letter-spacing: var(--ls-b3);
+}
+
+.fx--center,
+.fy--center,
+.fx--start--center,
+.fy--start--center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fx--start--center {
+  justify-content: flex-start;
+}
+
+.fy--center,
+.fy--start--center {
+  flex-direction: column;
+}
+.fy--start--center {
+  justify-content: flex-start;
+}

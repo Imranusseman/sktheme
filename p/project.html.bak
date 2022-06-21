@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html lang="en" class="light-theme">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="../css/layouts/project.css">
+
+  <link rel="icon" href="/assets/favicon.png">
+
+  <script defer src="/js/main.js"></script>
+
+  
+  <title>Sketchub &bull; Diamond kings Earnings</title>
+
+  <meta name="name"        content="Sketchub &bull; Diamond kings Earnings">
+  <meta name="description" content="Diamond kings Earnings
+
+Please Subscribe My YouTube Channel
+
+Abhishek Tek 👇👇👇
+
+https://youtube.com/channel/UCD4UePetAvGz8U4tbyGzYvQ
+
+featured is
+
+splash screen
+google login
+home
+invite friends
+wallet
+profile
+daily bonus
+offer wall
+spin &amp; earn
+watch video
+article
+
+more features is comings soon
+
+contact Us WhatsApp number :
+
++91 7079021452">
+  <meta name="keywords"    content="Sketchub, Web, Sketchware, Project, Store, Diamond kings Earnings">
+  <meta name="theme-color" content="#212D3B">
+
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Sketchub &bull; Diamond kings Earnings">
+  <meta property="og:url"         content="https://web.sketchub.in/p/14801">
+  <meta property="og:image"       content="https://sketchub.in/storage/project_files/14801/7818765.png">
+  <meta property="og:image"       content="https://sketchub.in/storage/project_files/14801/8821170.jpg">
+  <meta property="og:description" content="Diamond kings Earnings
+
+Please Subscribe My YouTube Channel
+
+Abhishek Tek 👇👇👇
+
+https://youtube.com/channel/UCD4UePetAvGz8U4tbyGzYvQ
+
+featured is
+
+splash screen
+google login
+home
+invite friends
+wallet
+profile
+daily bonus
+offer wall
+spin &amp; earn
+watch video
+article
+
+more features is comings soon
+
+contact Us WhatsApp number :
+
++91 7079021452">
+
+  <link type="application/json+oembed" href="https://web.sketchub.in/libs/oembed.php?pid=14801" />
+  
+  <!--Adsense-->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6152085670540811"
+  crossorigin="anonymous"></script>
+
+  
+<style>
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+} 
+
+@media (min-width:1119px) {
+    .modal-content {
+        width: 40%;
+    }   
+}
+
+/* The Close Button */
+.model-close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.model-close:hover,
+.model-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+
+</head>
+<body id="appBody">
+
+    <!-- The Modal -->
+    <div id="download_modal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="model-close">&times;</span>
+        <p style="color: #878787">Download project</p>
+        <center>
+            <form action="#" method="post">
+                <div class="g-recaptcha" style="margin-top:15px" data-sitekey="6LeKp9EZAAAAAJQG_Pm4bt1BvMaVvLbQgOzGXcp7"></div>
+                <br>
+                <button class="btn-primary" name="action" value="download">Download</button>
+            </form>
+        </center>
+        
+      </div>
+
+    </div>
+
+
+  <div id="root">
+    <!-- App Header -->
+      <header class="sk-header fx--start--center">
+  <div class="sk-header__branding">
+    <!-- <h2 class="text text-h2">Sketchub</h2> -->
+    <a href="/" class="text text-h2">Sketchub</a>
+  </div>
+  <div class="sk-header__search-container fx--center">
+    <input class="sk-header__search-bar text-b1" placeholder="Search..." type="text">
+  </div>
+  <div class="sk-header__options">
+    <button onClick="sHubApp.changeTheme()" class="sk-icon-button">
+      <i class="bi bi-brightness-alt-high"></i>
+    </button>
+    <button class="sk-icon-button">
+      <i class="bi bi-person"></i>
+    </button>
+  </div>
+</header>    <!-- / App Header -->
+
+    <!-- Content -->
+    <div class="sk-content__wrapper">
+      <div id="skContent" class="sk-content">
+        
+            
+        <div class="project">
+          <img class="appIcon" src="https://sketchub.in/storage/project_files/14801/7818765.png" alt="sketchub icon">
+          <div class="project__info">
+            <h2 class="project__name text text-h2">Diamond kings Earnings</h2>
+            <a class="project__author text text-b2" href="/u/AbhishekTek">AbhishekTek</a>
+            <div class="project__chips">
+                            <button class="sk-chips text text-b2" onclick = "location.href='/all?c=UI &amp; UX';" >UI &amp; UX</button>
+              <button class="sk-chips text text-b2" onclick = "location.href='/all?pt=sketchware_pro';" >Sketchware Pro (MOD)</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-buttons">
+          
+        
+          <button id="download_button" class="btn-primary">Download (1.2 MB)</button>
+          <button class="btn-surface" onclick = "location.href='project.sketchub://?id=14801'" >Open in Sketchub app</button>
+                </div>
+
+        <div class="lcd-stats">
+          <div class="lcd-stats__item">
+            <i class="bi bi-heart"></i>
+            <span>3 Likes</span>
+          </div>
+          <div class="lcd-stats__item">
+            <i class="bi bi-chat-left"></i>
+            <span>2 Comments</span>
+          </div>
+          <div class="lcd-stats__item">
+            <i class="bi bi-download"></i>
+            <span>17 Downloads</span>
+          </div>
+        </div>
+
+                <div class="project-whatsnew">
+          <h2 class="project-whatsnew__heading text text-s1">What's new</h2>
+          <p>
+            <p>Diamond kings Earnings </p>
+<p>Please Subscribe My YouTube Channel</p>
+<p>Abhishek Tek👇👇👇
+<a href="https://youtube.com/channel/UCD4UePetAvGz8U4tbyGzYvQ">https://youtube.com/channel/UCD4UePetAvGz8U4tbyGzYvQ</a></p>          </p>
+        </div>
+        
+        <div class="project-screenshot__wrapper">
+          <h2 class="text text-s1">Screenshots</h2>
+          <div class="scrollbar scrollbar--auto-hide scrollbar__h">
+            <div class="project-screenshot">
+              <img src="https://sketchub.in/storage/project_files/14801/8821170.jpg">
+              <img src="https://sketchub.in/storage/project_files/14801/5332498.jpg">
+              <img src="https://sketchub.in/storage/project_files/14801/5805194.jpg">
+              <img src="https://sketchub.in/storage/project_files/14801/4846026.jpg">
+              <img src="https://sketchub.in/storage/project_files/14801/8189645.jpg">
+            </div>
+          </div>
+        </div>
+
+        <div class="project-about">
+          <h2 class="text text-s1">About</h2>
+          <p class="text text-b1">
+            <p>Diamond kings Earnings</p>
+<p>Please Subscribe My YouTube Channel</p>
+<p>Abhishek Tek 👇👇👇</p>
+<p><a href="https://youtube.com/channel/UCD4UePetAvGz8U4tbyGzYvQ">https://youtube.com/channel/UCD4UePetAvGz8U4tbyGzYvQ</a></p>
+<p>featured is</p>
+<p>splash screen
+google login
+home
+invite friends
+wallet
+profile
+daily bonus
+offer wall
+spin &amp; earn
+watch video
+article</p>
+<p>more features is comings soon</p>
+<p>contact Us WhatsApp number :</p>
+<p>+91 7079021452</p>          </p>
+        </div>
+
+                
+      </div>
+
+    
+    </div>
+    <!-- / Content -->
+
+    <!-- footer -->
+    <p class="text text-b1" style="text-align:center;">&copy;2022 Sketchub | <a href="https://sketchub.in/user_policy">User Policy</a></p>
+    <!-- Navigation bar -->
+          <!-- / Navigation bar -->
+  </div>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("download_modal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("download_button");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("model-close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</body>
+</html>
